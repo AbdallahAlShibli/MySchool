@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_parents_students">
+
+    <fragment
+        android:id="@+id/navigation_parents_students"
+        android:name="com.example.myschool.adminUI.parentsStudents.ParentsStudentsFragment"
+        android:label="@string/title_parents_students"
+        tools:layout="@layout/fragment_parents_students" />
+
+    <fragment
+        android:id="@+id/navigation_bus_drivers"
+        android:name="com.example.myschool.adminUI.busDrivers.BusDriversFragment"
+        android:label="@string/title_bus_drivers"
+        tools:layout="@layout/fragment_bus_drivers" />
+
+    <fragment
+        android:id="@+id/navigation_bus_supervisors"
+        android:name="com.example.myschool.adminUI.busSupervisor.BusSupervisorFragment"
+        android:label="@string/title_bus_supervisors"
+        tools:layout="@layout/fragment_bus_supervisors" />
+</navigation>

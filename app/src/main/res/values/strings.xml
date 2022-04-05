@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MySchool</string>
+
+    <string name="title_activity_admin">Admin</string>
+    <string name="title_parents_students">Parents and Students</string>
+    <string name="title_bus_drivers">Bus Drivers</string>
+    <string name="title_bus_supervisors">Bus Supervisors</string>
+    <string name="title_activity_bus_supervisor">BusSupervisor</string>
+    <string name="title_activity_bus_supervisoe_page">BusSupervisoePage</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_children_list">Children List</string>
+    <string name="title_reports">Reports</string>
+    <string name="title_activity_parents_page">ParentsPage</string>
+    <string name="title_notification">Notification</string>
+    <string name="title_history">History</string>
+</resources>
